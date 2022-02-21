@@ -1,0 +1,46 @@
+#mainTitle {
+	text-align: center;
+	padding-top:5%;
+	padding-left:10%;
+	padding-right:10%;
+	color: #515152;
+	font-size: 6.5vw;
+	-webkit-text-stroke-width: 0.05vw;
+	-webkit-text-stroke-color: white;
+	opacity: 50%;
+	}
+	
+#articles {
+	padding: 10px;
+	background-color: #515152;
+	margin-left: 18%;
+	margin-right: 18%;
+	border: 3px;
+	border-color: white;
+	opacity: 75%;
+	color: white;
+	border:solid 2px white;
+	text-align: justify;
+	overflow: auto;
+}
+
+h2 {
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 4vw;
+}
+
+#articles p {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 20px;
+	font-size: 20px;
+	white-space: normal;
+}
+
+#content{
+	column-count: 2;
+	column-gap: 20px;
+	column-rule-style: solid;
+	column-rule-color: #50E7FF;
+}

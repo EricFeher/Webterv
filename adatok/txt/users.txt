@@ -1,0 +1,1 @@
+O:11:"Felhasznalo":6:{s:14:"felhasznalonev";s:5:"admin";s:6:"jelszo";s:5:"admin";s:6:"dateof";s:10:"2001-07-19";s:3:"sex";s:1:"f";s:5:"email";s:15:"admin@email.org";s:7:"regdate";s:24:"April 15, 2021, 11:42 pm";}

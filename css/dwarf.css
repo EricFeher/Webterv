@@ -1,0 +1,26 @@
+img {
+	width: 30%;
+	position: absolute;
+	animation-name: example;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	top: 20%;
+}
+
+@keyframes example {
+	0%  {left:0px;}
+	25% {left:100%;}
+	50% {left:85%;}
+	75% {left:100%;}
+	100%{left:0px;}
+}
+
+html{
+	overflow-x: hidden;
+}
+
+@media screen and (max-width: 1800px) {
+	img {
+		content: url(../img/dwarfClown.jpg);
+	}
+}

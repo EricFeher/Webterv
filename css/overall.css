@@ -1,0 +1,76 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box:
+}
+
+h1 {
+	color: #fff	;
+}
+
+
+body {
+	background-image: url(../img/bg.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+}
+
+nav {
+	display:flex;
+	justify-content: space-around;
+	align-items:center;
+	background-color:  #515152;
+	min-height: 6vh;
+	min-height:30px;
+	max-height: 6vh;
+	font-family: 'Poppins', sans-serif;
+	letter-spacing: 3px;
+	opacity: 75%;
+	border-bottom: solid 2px white;
+	position: fixed; /* Set the navbar to fixed position */
+	top: 0; /* Position the navbar at the top of the page */
+	width: 100%;
+	z-index:100;
+}
+
+nav h2 {
+	color: #fff	;
+	text-align: left;
+	font-size:2.0vw;
+	font-size:2.0vh
+}
+
+#navigation {
+	display:flex;
+	justify-content: space-around;
+	width: 40%;
+	min-width:300px;
+}
+
+#navigation li {
+	list-style: none;
+}
+
+#navigation a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1vw;
+}
+
+#navigation a:hover{
+	color: #cc00cc;
+}
+
+@media print {  
+        p { font-size: 12pt; }            /* bekezdések betűméretének megadása */
+        video, audio { display: none; }   /* videók, hangfájlok eltüntetése */
+        h1, h2, h3 { page-break-after: avoid; } /* címsorok utáni oldaltörés elkerülése */
+		nav {visibility: hidden;}
+      }
+	  
+#navigation a.active {
+  background-color: #02D2FF;
+  color: #cc00cc;
+  font-weight: bold;
+}

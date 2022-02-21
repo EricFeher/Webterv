@@ -1,0 +1,67 @@
+#articles {
+	padding: 10px;
+	background-color: #515152;
+	margin-left: 18%;
+	margin-right: 18%;
+	border: 3px;
+	border-color: white;
+	opacity: 75%;
+	color: white;
+	border:solid 2px white;
+	margin-top: 20%;
+}
+
+#articles h2 {
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+	font-size: 4vw;
+	margin-left: 4%;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	text-shadow: 2px 2px 2px black;
+}
+
+#articles h3 {
+	font-family: 'Poppins', sans-serif;
+	text-align: left;
+	font-size: 2.5vw;
+	margin-left: 4%;
+	margin-top: 2%;
+	margin-bottom: 1%;
+	text-shadow: 2px 2px 2px black;
+}
+
+#articles p {
+	padding-left: 5%;
+	padding-right: 5%;
+	font-size: 20px;
+	font-weight: normal;
+	padding-bottom: 2%;
+}
+
+#solarsys{
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+#earth {
+	float:right;
+	position:relative;
+	padding-left:5px;
+	padding-bottom:5px;
+	height:35%;
+	width:35%;
+	text-align:right;
+}
+#earth figcaption{
+	font-size: 2vw;
+	text-shadow: 0.3vw 0.3vw #000000;
+	text-shadow: 0.3vh 0.3vh #000000;
+	text-align: center;
+}
+
+#earth img {
+	height:100%;
+	width:100%;
+}
